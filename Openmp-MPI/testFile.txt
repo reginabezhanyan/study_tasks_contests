@@ -1,0 +1,22 @@
+#BSUB -n 20 -q normal
+#BSUB -W 15
+#BSUB -o prog.%J.out
+#BSUB -e prog.%J.err
+echo 1 thread:
+./prog 1
+echo 2 threads:
+./prog 2
+echo 4 threads:
+./prog 4
+echo 8 threads:
+./prog 8
+echo 16 threads:
+./prog 16
+echo 32 threads:
+./prog 32
+echo 64 threads:
+./prog 64
+echo 128 threads:
+./prog 128
+echo 160 threads:
+./prog 160

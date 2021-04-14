@@ -1,0 +1,13 @@
+#! /usr/bin/python3
+
+import sys
+
+if len(sys.argv) > 1:
+    i = 1
+    prod = 1
+    while i < len(sys.argv):
+        prod = prod * int(sys.argv[i])
+        i = i + 1
+        continue
+    print (prod, "\n")
+    

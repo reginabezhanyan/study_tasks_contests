@@ -1,0 +1,19 @@
+#!/bin/bash -x
+#mpisubmit.bg -n 1 -w 00:08:00 run
+#mpisubmit.bg -n 1 -w 00:08:00 run
+#mpisubmit.bg -n 2 -w 00:08:00 run
+#mpisubmit.bg -n 2 -w 00:08:00 run
+#mpisubmit.bg -n 4 -w 00:08:00 run
+#mpisubmit.bg -n 4 -w 00:08:00 run
+#mpisubmit.bg -n 8 -w 00:08:00 run
+#mpisubmit.bg -n 8 -w 00:08:00 run
+#mpisubmit.bg -n 16 -w 00:08:00 run
+#mpisubmit.bg -n 16 -w 00:08:00 run
+#mpisubmit.bg -n 32 -w 00:08:00 run
+#mpisubmit.bg -n 32 -w 00:08:00 run
+#mpisubmit.bg -n 64 -w 00:08:00 run
+#mpisubmit.bg -n 64 -w 00:08:00 run
+#mpisubmit.bg -n 128 -w 00:08:00 run
+#mpisubmit.bg -n 128 -w 00:08:00 run
+#mpisubmit.bg -n 256 -w 00:08:00 run
+#mpisubmit.bg -n 256 -w 00:08:00 run
